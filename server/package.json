@@ -1,0 +1,15 @@
+{
+  "name": "crud-mern0app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Sherry",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "mongoose": "^8.4.4"
+  }
+}

@@ -1,0 +1,40 @@
+/* src/components/Home.css */
+
+.dashboard {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .dashboard-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .dashboard-link {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    width: 60%;
+    background-color: #28a745; /* Green color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px; /* Rounded corners */
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-link:hover {
+    background-color: #218838; /* Darker shade of green on hover */
+  }
+
